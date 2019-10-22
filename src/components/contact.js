@@ -10,9 +10,9 @@ class Contact extends Component {
                         <img 
                         src="https://scontent-cdt1-1.xx.fbcdn.net/v/t1.0-9/45665846_10217394293429652_2082084704969818112_n.jpg?_nc_cat=105&_nc_oc=AQnIzSvzqYBZOiNwC2VIUnww2Jx23_vVjm76d9BQ4R5y_VxAP0z8TKFEpLdTz5GrRAY&_nc_ht=scontent-cdt1-1.xx&oh=d3c9edc67340e6d4fd0cd833eac280ae&oe=5E199549"
                         alt="avatar"
-                        style={{height: '250px', borderRadius:'33%', marginTop:'40px'}}
+                        className="contact-image"
                         />
-                        <p style={{width:'75%', margin:'auto', paddingTop:'1em'}}>Hi ! <br /> Thank you for your interest in my profile, if you're looking for an intern in Software Engineering or Full-Stack programming, please do not hesitate to contact me !<br/> I am available starting January 2020 🚀</p>
+                        <p className="contact-desc">Hi ! <br /> Thank you for your interest in my profile, if you're looking for an intern in Software Engineering or Full-Stack programming, please do not hesitate to contact me !<br/> I am available starting January 2020 🚀</p>
                     </Cell>
                     <Cell col={6}>
                         <h2>Contact Me</h2>

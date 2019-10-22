@@ -16,14 +16,14 @@ class LandingPage extends Component {
                         <div className="banner-text">
                             <h1>Barthélémy LEVEQUE</h1>
                             <p className="subtitle">Software Engineer and Full-Stack Web Developer</p>
-                            <hr />
                             <div className="languages">
+                                <hr style={{padding:'10px'}}/>
                                 <img src="https://img.icons8.com/color/96/000000/c-programming.png" alt="c" title="C"></img>
                                 <img src="https://img.icons8.com/color/96/000000/python.png" alt="python" title="Python"></img>
                                 <img src="https://img.icons8.com/color/96/000000/php.png" alt="php" title="PHP"></img>
                                 <img src="https://img.icons8.com/color/96/000000/react-native.png" alt="react" title="React"></img>
                                 <img src="https://img.icons8.com/color/96/000000/nodejs.png" alt="nodejs" title="NodeJS"></img>
-                                <img src="http://pngimg.com/uploads/mysql/mysql_PNG9.png" style={{width: '110px'}} alt="sql" title="MySQL"></img>
+                                <img src="http://pngimg.com/uploads/mysql/mysql_PNG9.png" style={{width: '120px'}} alt="sql" title="MySQL"></img>
                                 <img src="https://img.icons8.com/color/96/000000/docker.png" alt="docker" title="Docker"></img>
                          </div>
                         </div>
