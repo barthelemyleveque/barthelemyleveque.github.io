@@ -1,0 +1,310 @@
+
+body{
+  font-family: 'Roboto Slab', serif !important;
+}
+
+
+
+.header-color{
+  background: #11998e;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #38ef7d, #11998e);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #38ef7d, #11998e); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+/*
+** LANDING PAGE CSS 
+*/
+
+.landing-grid{
+  background: #11998e;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #38ef7d, #11998e);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #38ef7d, #11998e); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */ 
+  text-align:center;
+  position:fixed;
+  top:0;
+  left:0;
+  overflow:scroll;
+  width:105%;
+  height:100%;
+}
+
+.avatar-img{
+  height:200px;
+  margin-top:60px;
+  margin-bottom:20px;
+  border-radius:50%;
+}
+
+.banner-text{
+  background-color:black;
+  opacity:.8;
+  width:75%;
+  margin:auto;
+  border-radius: 10px;
+}
+
+.banner-desc{
+  background-color:black;
+  opacity:.8;
+  width:75%;
+  padding:10px;
+  margin:auto;
+  border-radius: 10px;
+  margin-top:40px;
+  margin-bottom:100px;
+}
+
+.banner-desc p{
+  color: rgba(255, 255, 255, 1.0) !important;
+  font-size: 20px ;
+}
+
+.redirect{
+  font-size:1.3rem !important;
+  background-color:white !important;
+  margin:15px;
+}
+
+.redirect:hover{
+  background-color:#28a745 !important;
+}
+
+.banner-text hr{
+  border-top:5px dotted white;
+  width:50%;
+  margin:auto;
+}
+
+.banner-text h1{
+  text-align:center;
+  font-size:40px;
+  font-weight:bold;
+  color:white;
+}
+
+.subtitle{
+  color:white;
+  margin-top:-1em;
+  text-align:center;
+  font-size:20px;
+}
+
+.languages{
+  padding:1em;
+  text-align:center;
+}
+
+.languages img{
+  padding-left:1em;
+  padding-right:1em;
+  text-align:center;
+}
+/*
+** NAVBARCSS 
+*/
+.navbar-dark .navbar-nav .nav-link {
+  color: rgba(255, 255, 255, 1.0) !important;
+}
+
+.nav-item{
+  font-size:25px;
+}
+
+.nav-item:hover{
+  opacity:0.5;
+}
+
+.fa {
+  font-size: 60px;
+  height: auto;
+  text-align: center;
+  text-decoration: none;
+  margin-right:20px;
+  margin-left:20px;
+  border-radius: 50%;
+}
+#title{
+  color: white!important;
+  font-size:30px;
+  text-shadow: 3px 3px 0px rgba(0,0,0,0.2);
+}
+
+a { 
+  text-decoration: none !important;
+}
+
+footer .fa:hover {
+  color:white;
+}
+
+footer .fa-envelope:hover {
+  opacity: 0.7;
+  color:white;
+}
+
+footer .fa-linkedin {
+  color:  #007bb5;
+}
+
+footer .fa-github {
+  color: black;
+}
+
+footer .fa-envelope {
+  color:white;
+}
+
+footer{
+  position:fixed;
+  height:80px;
+  bottom:0;
+  width:100%;
+}
+
+/*
+** PROJECTS CSSS
+*/
+
+.category-tabs{
+  margin-bottom:70px;
+}
+.projects-grid{
+  display:flex;
+  flex-wrap:wrap;
+  padding:20px;
+  margin-top:10px;
+  height:90%;
+}
+
+.c-language{
+  color:black;
+  height:176px;
+  background: url(img/c-logo.png) center / contain no-repeat;
+}
+
+.card-desc{
+  text-align:justify;
+}
+.python-language{
+  color:black;
+  height:176px;
+  background: url(img/python-logo.png) center / contain no-repeat;
+}
+
+.php-language{
+  color:black;
+  height:176px;
+  background: url(img/php-logo.png) center / contain no-repeat;
+}
+
+.react-language{
+  color:black;
+  height:176px;
+  background: url(img/react-logo.svg) center / contain no-repeat;
+}
+
+.node-language{
+  color:black;
+  height:176px;
+  background: url(img/node-logo.png) center / contain no-repeat;
+}
+
+/*
+** CONTACT CSS
+*/ 
+
+.contact-body{
+  margin:2em;
+  margin-bottom:90px;
+}
+.contact-grid{
+  border-radius:10px;
+  text-align:center;
+  justify-content: center;
+  height:100%;
+  background-color:#F2F3F7;
+}
+
+.contact-grid h2{
+  font-family: 'Oxygen', sans-serif;
+}
+
+.contact-grid hr{
+  border-top:5px dotted black;
+  width:50%;
+  margin:auto;
+}
+
+.contact-grid .fa{
+  justify-content: center;
+  vertical-align:middle;
+  text-align:center;
+  
+}
+
+.contact-grid .fa-phone-square{
+  color:#30D158
+}
+
+.contact-grid .fa-envelope{
+  color:black;
+  font-size:50px;
+}
+
+.contact-grid .fa-skype{
+  color: #00aff0;
+}
+
+/*
+** RESUME CSS
+*/
+.mainresume{
+  padding-top:30px;
+  margin-bottom:100px;
+}
+.resume-left-col{
+  padding-right:2em;
+}
+.resume-right-col{
+  background:#F2F3F7;
+  color:rgb(54, 53, 53);
+  padding:2em;
+}
+
+.education{
+  padding:'0px';
+  margin-bottom:'0px';
+  margin-top:'-100px';
+}
+
+/*
+** RESUME - HOBBIES CSS
+*/
+
+.label{
+  display:inline-block;
+  font-weight:bold;
+  width:6em;
+}
+
+.desc{
+}
+@media only screen and (max-width: 600px) {
+  .contact-list{
+    font-size:25px;
+  }
+  .fa {
+    font-size:35px;
+  }
+  .fa-envelope{
+    font-size:30px;
+  }
+
+  .banner-text h1{
+    font-size:30px;
+}
+  .contact-grid h2{
+    display:none;
+  }
+  
+}
