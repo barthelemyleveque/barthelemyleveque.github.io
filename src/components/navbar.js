@@ -16,7 +16,7 @@ class Navbar extends Component {
                 <Link to="/projects" class="nav-link js-scroll-trigger ">My Projects</Link>
               </li>
               <li class="nav-item">
-                <Link to="/resume" class="nav-link js-scroll-trigger">About Me</Link>
+                <Link to="/resume" class="nav-link js-scroll-trigger">Resumé</Link>
               </li>
               <li class="nav-item">
                 <Link to="/contact" class="nav-link js-scroll-trigger">Contact</Link>

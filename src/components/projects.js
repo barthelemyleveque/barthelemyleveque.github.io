@@ -24,7 +24,6 @@ class Projects extends Component {
                     </CardText>
                     <CardActions border>
                         <Button colored><a href="https://github.com/barthelemyleveque/Corewar" target="_blank" rel="noopener noreferrer" >GitHub</a></Button>
-                        <Button colored>Demo</Button>
                     </CardActions>
                 </Card>
 
@@ -36,7 +35,6 @@ class Projects extends Component {
                 </CardText>
                 <CardActions border>
                     <Button colored><a href="https://github.com/barthelemyleveque/lem_in" target="_blank" rel="noopener noreferrer" >GitHub</a></Button>
-                    <Button colored>Demo</Button>
                 </CardActions>
             </Card>
 
@@ -48,7 +46,6 @@ class Projects extends Component {
             </CardText>
             <CardActions border>
                 <Button colored><a href="https://github.com/barthelemyleveque/push_swap" target="_blank" rel="noopener noreferrer" >GitHub</a></Button>
-                <Button colored>Demo</Button>
             </CardActions>
         </Card>
 
@@ -61,7 +58,6 @@ class Projects extends Component {
             </CardText>
             <CardActions border>
                 <Button colored><a href="https://github.com/barthelemyleveque/Fillit" target="_blank" rel="noopener noreferrer" >GitHub</a></Button>
-                <Button colored>Demo</Button>
             </CardActions>
         </Card>
 
@@ -79,8 +75,6 @@ class Projects extends Component {
                 </CardText>
                 <CardActions border>
                     <Button colored>GitHub</Button>
-                    <Button colored>CodePen</Button>
-                    <Button colored>Demo</Button>
                 </CardActions>
                 <CardMenu style={{color: "#fff"}}>
                     <IconButton name="share"/>
@@ -93,9 +87,8 @@ class Projects extends Component {
                     Beta-tested the school's Python bootcamp. Working with the pedagogical team to improve the exercises which teach the basics of Python, Numpy and Pandas.
                 </CardText>
                 <CardActions border>
+                    <Button colored><a href="https://github.com/barthelemyleveque/Piscine_Python" target="_blank" rel="noopener noreferrer" >GitHub</a></Button>
                     <Button colored>GitHub</Button>
-                    <Button colored>CodePen</Button>
-                    <Button colored>Demo</Button>
                 </CardActions>
                 <CardMenu style={{color: "#fff"}}>
                     <IconButton name="share"/>
@@ -112,11 +105,11 @@ class Projects extends Component {
             <Card shadow={5} style={{minWidth: '450', margin: 'auto', marginTop:'20px'}}>
                 <CardTitle className="php-language">Invoice Generator</CardTitle>
                 <CardText className="card-desc">
-                    An ongoing freelance project for a Gas Control company. I had to build a web-app where clients can generate an invoice depending on the characteristics of their fire-system. The backend is done in PHP, and data collection is done through MySQL.
+                    An ongoing freelance project for a Gas Control company. I had to build a web-app where clients can generate an invoice depending on the characteristics of their fire-system. The backend is done in PHP, and data collection is done through MySQL. Hosted on a Google Cloud server.
                     <br/>(The code is private, because of the sensitive nature of some infos)
                 </CardText>
                 <CardActions border>
-                    <Button colored>Demo</Button>
+                    <Button colored><a href="https://github.com/barthelemyleveque/InvoiceGen_PUBLIC" target="_blank" rel="noopener noreferrer" >GitHub</a></Button>
                 </CardActions>
             </Card>
 
@@ -141,16 +134,11 @@ class Projects extends Component {
                 <Card shadow={5} style={{minWidth: '450', margin: 'auto', marginTop:'20px'}}>
                     <CardTitle className="react-language">My Portfolio</CardTitle>
                     <CardText className="card-desc">
-                        This very portfolio is built using React, Bootstrap and React-mdl. 
+                        This very portfolio is built using React, Bootstrap and React-mdl. Published using GitHub Pages 
                     </CardText>
                     <CardActions border>
-                        <Button colored>GitHub</Button>
-                        <Button colored>CodePen</Button>
-                        <Button colored>Demo</Button>
+                        <Button colored><a href="https://github.com/barthelemyleveque/barthelemyleveque.github.io" target="_blank" rel="noopener noreferrer" >GitHub</a></Button>
                     </CardActions>
-                    <CardMenu style={{color: "#fff"}}>
-                        <IconButton name="share"/>
-                    </CardMenu>
                 </Card>
              </div>
             )
@@ -166,11 +154,7 @@ class Projects extends Component {
                     </CardText>
                     <CardActions border>
                         <Button colored><a href="https://github.com/barthelemyleveque/Spotify_MERN" target="_blank" rel="noopener noreferrer" >GitHub</a></Button>
-                        <Button colored>Demo</Button>
                     </CardActions>
-                    <CardMenu style={{color: "#fff"}}>
-                        <IconButton name="share"/>
-                    </CardMenu>
                 </Card>
              </div>
             )

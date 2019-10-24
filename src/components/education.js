@@ -16,7 +16,7 @@ class Education extends Component {
             </Grid>
             <Grid style={{padding:'0px', marginBottom:'0px', marginTop:'-5px'}}>
                 <Cell col={12} style={{padding:'0px', marginBottom:'0px', marginTop:'0px'}}>
-                    <p>{this.props.desc}</p>
+                    <p style={{textAlign:'Justify', textJustify:'inter-word'}}>{this.props.desc}</p>
                 </Cell>
             </Grid>
             </div>
