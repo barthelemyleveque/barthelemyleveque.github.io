@@ -88,7 +88,6 @@ class Projects extends Component {
                 </CardText>
                 <CardActions border>
                     <Button colored><a href="https://github.com/barthelemyleveque/Piscine_Python" target="_blank" rel="noopener noreferrer" >GitHub</a></Button>
-                    <Button colored>GitHub</Button>
                 </CardActions>
                 <CardMenu style={{color: "#fff"}}>
                     <IconButton name="share"/>
