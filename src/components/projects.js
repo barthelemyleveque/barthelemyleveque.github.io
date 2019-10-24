@@ -41,7 +41,7 @@ class Projects extends Component {
                 {/* Project 3 */}
             <Card shadow={5} style={{minWidth: '450', margin: 'auto', marginTop:'20px'}}>
             <CardTitle className="c-language">Pushswap</CardTitle>
-            <CardText>
+            <CardText className="card-desc">
                 Push Swap is an algorithmic project. The goal is to sort a list of numbers, by using a limited set of operations, in the most efficient way possible (the less operations, the better). I implemented a custom Quicksort algorithm, and the results were above expectations.  
             </CardText>
             <CardActions border>
@@ -52,7 +52,7 @@ class Projects extends Component {
                  {/* Project 4 */}
                  <Card shadow={5} style={{minWidth: '450', margin: 'auto', marginTop:'20px'}}>
             <CardTitle className="c-language">Fillit</CardTitle>
-            <CardText>
+            <CardText className="card-desc">
             This project aim to resolve a recurrent problematic in programming: the search of an optimal solution among a very large number of possibilities, in a resonable time.
             The goal is to arrange Tetriminos between them and to determine the smallest square possible.
             </CardText>
@@ -70,8 +70,8 @@ class Projects extends Component {
 
             <Card shadow={5} style={{minWidth: '450', margin: 'auto', marginTop:'20px'}}>
                 <CardTitle className="python-language">Wine Quality</CardTitle>
-                <CardText>
-                    Using Machine Learning, I tried to predict the quality of wines.
+                <CardText className="card-desc">
+                    Using Machine Learning techniques, I tried to predict the quality of wines. It's a regression problem
                 </CardText>
                 <CardActions border>
                     <Button colored>GitHub</Button>
@@ -83,7 +83,7 @@ class Projects extends Component {
 
             <Card shadow={5} style={{minWidth: '450', margin: 'auto', marginTop:'20px'}}>
                 <CardTitle className="python-language">ML Workshop</CardTitle>
-                <CardText>
+                <CardText className="card-desc">
                     As part of Machine Learning workshops organized by the student association 42AI, we prepared a two hours presentation and some exercises about Decision Trees, Random Forets and Boosted Trees.
                 </CardText>
                 <CardActions border>
@@ -96,7 +96,7 @@ class Projects extends Component {
 
             <Card shadow={5} style={{minWidth: '450', margin: 'auto', marginTop:'20px'}}>
                 <CardTitle className="python-language">Bootcamp Betatester</CardTitle>
-                <CardText>
+                <CardText className="card-desc">
                     Beta-tested the school's Python bootcamp. Working with the pedagogical team to improve the exercises which teach the basics of Python, Numpy and Pandas.
                 </CardText>
                 <CardActions border>
@@ -127,7 +127,7 @@ class Projects extends Component {
 
             <Card shadow={5} style={{minWidth: '450', margin: 'auto', marginTop:'20px'}}>
                 <CardTitle className="php-language">eCommerce </CardTitle>
-                <CardText>
+                <CardText className="card-text">
                     My first web project, built over a week-end. It is a eCommerce website, with the expected functionalities : account creation, order, search for products and categories, an administration page etc. <br/>
                     No librairies were used, full PHP and HTML/CSS
                 </CardText>
