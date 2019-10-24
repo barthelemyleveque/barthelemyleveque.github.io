@@ -69,12 +69,25 @@ class Projects extends Component {
             <div className="projects-grid">
 
             <Card shadow={5} style={{minWidth: '450', margin: 'auto', marginTop:'20px'}}>
-                <CardTitle className="python-language">Compress Images</CardTitle>
+                <CardTitle className="python-language">Wine Quality</CardTitle>
                 <CardText>
-                    A personal project, done using some Machine Learning techniques such as Clustering to compress an image.
+                    Using Machine Learning, I tried to predict the quality of wines.
                 </CardText>
                 <CardActions border>
                     <Button colored>GitHub</Button>
+                </CardActions>
+                <CardMenu style={{color: "#fff"}}>
+                    <IconButton name="share"/>
+                </CardMenu>
+            </Card>
+
+            <Card shadow={5} style={{minWidth: '450', margin: 'auto', marginTop:'20px'}}>
+                <CardTitle className="python-language">ML Workshop</CardTitle>
+                <CardText>
+                    As part of Machine Learning workshops organized by the student association 42AI, we prepared a two hours presentation and some exercises about Decision Trees, Random Forets and Boosted Trees.
+                </CardText>
+                <CardActions border>
+                    <Button colored><a href="https://github.com/barthelemyleveque/ML_RandForests" target="_blank" rel="noopener noreferrer" >GitHub</a></Button>
                 </CardActions>
                 <CardMenu style={{color: "#fff"}}>
                     <IconButton name="share"/>
