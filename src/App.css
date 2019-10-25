@@ -29,9 +29,9 @@ body{
 }
 
 .avatar-img{
-  height:200px;
-  margin-top:60px;
-  margin-bottom:20px;
+  height:180px;
+  margin-top:40px;
+  margin-bottom:10px;
   border-radius:50%;
 }
 
@@ -50,8 +50,8 @@ body{
   padding:10px;
   margin:auto;
   border-radius: 10px;
-  margin-top:40px;
-  margin-bottom:100px;
+  margin-top:20px;
+  margin-bottom:60px;
 }
 
 .banner-desc p{
@@ -77,7 +77,7 @@ body{
 
 .banner-text h1{
   text-align:center;
-  font-size:40px;
+  font-size:35px;
   font-weight:bold;
   color:white;
 }
@@ -115,7 +115,7 @@ body{
 }
 
 .fa {
-  font-size: 60px;
+  font-size: 50px;
   height: auto;
   text-align: center;
   text-decoration: none;
@@ -156,11 +156,11 @@ footer .fa-envelope {
 
 footer{
   position:fixed;
-  height:80px;
   bottom:0;
+  z-index:99;
+  height:60px;
   width:100%;
 }
-
 /*
 ** PROJECTS CSSS
 */
@@ -221,7 +221,7 @@ footer{
 
 .contact-body{
   margin:2em;
-  margin-bottom:90px;
+
 }
 .contact-grid{
   border-radius:10px;
@@ -271,8 +271,9 @@ footer{
 */
 .mainresume{
   padding-top:30px;
-  margin-bottom:100px;
+  margin-bottom:60px;
 }
+
 .resume-left-col{
   padding-right:2em;
 }

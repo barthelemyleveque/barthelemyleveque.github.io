@@ -8,7 +8,6 @@ class Resume extends Component {
         return(
             <div className="mainresume">
                 <Grid>
-                    <Cell col={1}/>
                     <Cell className="resume-left-col" col={3}>
                         <div style={{textAlign:"center", marginTop:'2em'}}>
                             <img 
@@ -35,7 +34,7 @@ class Resume extends Component {
                         <hr style={{borderTop:'3px solid #11998e', width:'50%'}}/>
                     </Cell>
 
-                    <Cell className="resume-right-col" col={7}>
+                    <Cell className="resume-right-col" col={9}>
                         <h4 style={{color:'#11998e', marginTop:'-5px'}}>Education</h4>
                         <Education 
                             startYear={2019}
