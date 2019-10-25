@@ -165,6 +165,13 @@ footer{
 ** PROJECTS CSSS
 */
 
+.tab {
+  font-size:15px !important;
+}
+
+.tabs{
+  height:30px;
+}
 .category-tabs{
   margin-bottom:70px;
 }
@@ -334,6 +341,14 @@ footer{
     display:none
   }
   .banner-text h1{
+    display:none
+  }
+  
+  .banner-desc{
+    margin-top:80px;
+  }
+
+  .subtitle{
     display:none
   }
   .contact-desc{
