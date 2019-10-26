@@ -29,7 +29,7 @@ class LandingPage extends Component {
                         </div>
                          <div className="banner-desc">
                              <p> Hello there  <span role="img" aria-label="waving hand">👋</span></p>
-                             <p>I am a 25 years old <a href="https://www.42.us.org/" target="_blank" rel="noopener noreferrer">School 42</a> student looking for a 6 months internship starting in January 2020.</p>
+                             <p>I am a 25-year-old <a href="https://www.42.us.org/" target="_blank" rel="noopener noreferrer">School 42</a> student looking for a 6-month internship starting in January 2020.</p>
                              <p>Want to know more about me ?</p>
                              <Link to="/projects" className="btn btn-outline-success redirect">Check my Projects</Link>
                              <Link to="/resume" className="btn btn-outline-success redirect">Check my Resumé</Link>
