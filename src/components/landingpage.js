@@ -15,7 +15,7 @@ class LandingPage extends Component {
                         />
                         <div className="banner-text">
                             <h1>Barthélémy LEVEQUE</h1>
-                            <p className="subtitle">Software Engineer and Full-Stack Web Developer</p>
+                            <p className="subtitle">Software Engineer and Full-Stack Web Developer <br/> with experience in Corporate Finance and Strategy</p>
                             <div className="languages">
                                 <hr style={{padding:'10px'}}/>
                                 <img src="https://img.icons8.com/color/96/000000/c-programming.png" alt="c" title="C"></img>
@@ -29,7 +29,8 @@ class LandingPage extends Component {
                         </div>
                          <div className="banner-desc">
                              <p> Hello there  <span role="img" aria-label="waving hand">👋</span></p>
-                             <p>I am a 25-year-old <a href="https://www.42.us.org/" target="_blank" rel="noopener noreferrer">School 42</a> student looking for a 6-month internship starting in January 2020.</p>
+                             <p>I am a 25-year-old <a href="https://www.42.us.org/" target="_blank" rel="noopener noreferrer">School 42</a> student looking for a 6-month internship starting in January 2020.
+                            </p>
                              <p>Want to know more about me ?</p>
                              <Link to="/projects" className="btn btn-outline-success redirect">Check my Projects</Link>
                              <Link to="/resume" className="btn btn-outline-success redirect">Check my Resumé</Link>
