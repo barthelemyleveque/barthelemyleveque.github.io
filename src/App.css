@@ -200,6 +200,7 @@ footer{
 
 .card-desc{
   text-align:justify;
+  height:160px;
 }
 .python-language{
   color:black;
