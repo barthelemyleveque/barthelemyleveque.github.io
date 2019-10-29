@@ -102,6 +102,7 @@ body{
 .languages{
   padding:1em;
   text-align:center;
+  margin-bottom:80px !important;
 }
 
 .languages img{

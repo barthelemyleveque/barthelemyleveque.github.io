@@ -5,7 +5,7 @@ import { Link } from 'react-router-dom';
 class LandingPage extends Component {
     render(){
         return(
-            <div style={{width: '100%', margin: 'auto', minHeight:'100%', marginBottom:'80px'}}>
+            <div style={{width: '100%', margin: 'auto', minHeight:'100%'}}>
                 <Grid className="landing-grid">
                     <Cell col={12}>
                         <img 
