@@ -23,7 +23,7 @@ class Projects extends Component {
                     We explored the design of a VM and challenges related to compiling an assembly language into bytecode.
                     </CardText>
                     <CardActions border>
-                        <Button colored><a href="https://github.com/barthelemyleveque/Corewar" target="_blank" rel="noopener noreferrer" >GitHub</a></Button>
+                        <Button colored><a href="https://github.com/barthelemyleveque/Corewar" target="_blank" rel="noopener noreferrer" ><span className="fa faproj fa-github"></span>GitHub</a></Button>
                     </CardActions>
                 </Card>
 
@@ -34,7 +34,7 @@ class Projects extends Component {
                     Lem-in is an algorithmic project that rely upon graph theory to find the shortest paths from a point A to a point B. Each route has a maximum capacity, so we used the Edmund-Karp algorithm to improve our results.
                 </CardText>
                 <CardActions border>
-                    <Button colored><a href="https://github.com/barthelemyleveque/lem_in" target="_blank" rel="noopener noreferrer" >GitHub</a></Button>
+                    <Button colored><a href="https://github.com/barthelemyleveque/lem_in" target="_blank" rel="noopener noreferrer" ><span className="fa faproj fa-github"></span>GitHub</a></Button>
                 </CardActions>
             </Card>
 
@@ -45,7 +45,7 @@ class Projects extends Component {
                 Push Swap is an algorithmic project. The goal is to sort a list of numbers, by using a limited set of operations, in the most efficient way possible (the less operations, the better). I implemented a custom Quicksort algorithm, and the results were above expectations.  
             </CardText>
             <CardActions border>
-                <Button colored><a href="https://github.com/barthelemyleveque/push_swap" target="_blank" rel="noopener noreferrer" >GitHub</a></Button>
+                <Button colored><a href="https://github.com/barthelemyleveque/push_swap" target="_blank" rel="noopener noreferrer" ><span className="fa faproj fa-github"></span>GitHub</a></Button>
             </CardActions>
         </Card>
 
@@ -57,7 +57,7 @@ class Projects extends Component {
             The goal is to arrange Tetriminos between them and to determine the smallest square possible.
             </CardText>
             <CardActions border>
-                <Button colored><a href="https://github.com/barthelemyleveque/Fillit" target="_blank" rel="noopener noreferrer" >GitHub</a></Button>
+                <Button colored><a href="https://github.com/barthelemyleveque/Fillit" target="_blank" rel="noopener noreferrer" ><span className="fa faproj fa-github"></span>GitHub</a></Button>
             </CardActions>
         </Card>
 
@@ -87,7 +87,7 @@ class Projects extends Component {
                     As part of Machine Learning workshops organized by the student association 42AI, we prepared a two hours presentation and some exercises about Decision Trees, Random Forets and Boosted Trees.
                 </CardText>
                 <CardActions border>
-                    <Button colored><a href="https://github.com/barthelemyleveque/ML_RandForests" target="_blank" rel="noopener noreferrer" >GitHub</a></Button>
+                    <Button colored><a href="https://github.com/barthelemyleveque/ML_RandForests" target="_blank" rel="noopener noreferrer" ><span className="fa faproj fa-github"></span>GitHub</a></Button>
                 </CardActions>
                 <CardMenu style={{color: "#fff"}}>
                     <IconButton name="share"/>
@@ -100,7 +100,7 @@ class Projects extends Component {
                     Beta-tested the school's Python bootcamp. Working with the pedagogical team to improve the exercises which teach the basics of Python, Numpy and Pandas.
                 </CardText>
                 <CardActions border>
-                    <Button colored><a href="https://github.com/barthelemyleveque/Piscine_Python" target="_blank" rel="noopener noreferrer" >GitHub</a></Button>
+                    <Button colored><a href="https://github.com/barthelemyleveque/Piscine_Python" target="_blank" rel="noopener noreferrer" ><span className="fa faproj fa-github"></span>GitHub</a></Button>
                 </CardActions>
                 <CardMenu style={{color: "#fff"}}>
                     <IconButton name="share"/>
@@ -121,7 +121,7 @@ class Projects extends Component {
                     <br/>(The code is private, because of the sensitive nature of some infos)
                 </CardText>
                 <CardActions border>
-                    <Button colored><a href="https://github.com/barthelemyleveque/InvoiceGen_PUBLIC" target="_blank" rel="noopener noreferrer" >GitHub</a></Button>
+                    <Button colored><a href="https://github.com/barthelemyleveque/InvoiceGen_PUBLIC" target="_blank" rel="noopener noreferrer" ><span className="fa faproj fa-github"></span>GitHub</a></Button>
                 </CardActions>
             </Card>
 
@@ -132,7 +132,7 @@ class Projects extends Component {
                     No librairies were used, full PHP and HTML/CSS
                 </CardText>
                 <CardActions border>
-                    <Button colored><a href="https://github.com/barthelemyleveque/online_store" target="_blank" rel="noopener noreferrer" >GitHub</a></Button>
+                    <Button colored><a href="https://github.com/barthelemyleveque/online_store" target="_blank" rel="noopener noreferrer" ><span className="fa faproj fa-github"></span>GitHub</a></Button>
                 </CardActions>
             </Card>
     
@@ -149,7 +149,7 @@ class Projects extends Component {
                         This very portfolio is built using React, Bootstrap and React-mdl. Published using GitHub Pages 
                     </CardText>
                     <CardActions border>
-                        <Button colored><a href="https://github.com/barthelemyleveque/barthelemyleveque.github.io" target="_blank" rel="noopener noreferrer" >GitHub</a></Button>
+                        <Button colored><a href="https://github.com/barthelemyleveque/barthelemyleveque.github.io" target="_blank" rel="noopener noreferrer" ><span className="fa faproj fa-github"></span>GitHub</a></Button>
                     </CardActions>
                 </Card>
              </div>
@@ -165,7 +165,7 @@ class Projects extends Component {
                         This ongoing project goal is to cross-reference your favorite artists, thanks to Spotify's API, and their future venues in your town, thanks to Songkick's API. 
                     </CardText>
                     <CardActions border>
-                        <Button colored><a href="https://github.com/barthelemyleveque/Spotify_MERN" target="_blank" rel="noopener noreferrer" >GitHub</a></Button>
+                        <Button colored><a href="https://github.com/barthelemyleveque/Spotify_MERN" target="_blank" rel="noopener noreferrer" ><span className="fa faproj fa-github"></span>GitHub</a></Button>
                     </CardActions>
                 </Card>
              </div>

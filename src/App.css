@@ -127,6 +127,18 @@ body{
   opacity:0.5;
 }
 
+.faproj {
+  font-size: 30px !important;
+  height: auto;
+  margin-top:-5px;
+  text-align: center;
+  text-decoration: none;
+  margin-right:10px !important;
+  margin-left:0px !important;
+  border-radius: 50%;
+  vertical-align:middle;
+}
+
 .fa {
   font-size: 50px;
   height: auto;
