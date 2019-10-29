@@ -86,7 +86,7 @@ body{
   color:white;
 }
 
-.btn{
+.banner-buttons .btn{
   border:1px solid !important;
   border-color:rgba(0,0,0, 0.8) !important;
 }
@@ -314,6 +314,32 @@ footer{
 .mainresume{
   padding-top:30px;
   margin-bottom:60px;
+}
+
+.resume-top{
+  padding:0px !important;
+  margin-top:-20px !important;
+  margin-bottom:-5px;
+  vertical-align:middle;
+}
+.top-desc{
+  border-radius:10px;
+  background-color:#F2F3F7;
+  vertical-align:middle;
+}
+
+.top-desc p{
+  text-align:center;
+  margin-top:1em;
+}
+.top-pdf{
+  text-align:center;
+  vertical-align:middle;
+  padding-top:0.8em;
+}
+
+.top-pdf .btn{
+  background:rgb(17, 153, 142);
 }
 
 .resume-left-col{

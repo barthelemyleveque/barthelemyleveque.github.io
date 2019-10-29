@@ -7,6 +7,14 @@ class Resume extends Component {
     render(){
         return(
             <div className="mainresume">
+                <Grid className="resume-top">
+                    <Cell col={9} className="top-desc">
+                        <p>I am looking for a 6-month internship as a Full-Stack Developer, Software Engineer or Data Scientist in Paris or abroad, starting in January 2020.</p>
+                    </Cell>
+                    <Cell col={3}className="top-pdf">
+                    <a rel="noopener noreferrer" href="https://drive.google.com/file/d/1Val7_3ZBweSeXxKT89Mfx5L2_zm6i5o3/view?usp=sharing" target="_blank"><button type="button" class="btn btn-info">Download C.V. in pdf</button></a>
+                    </Cell>
+                </Grid>
                 <Grid>
                     <Cell className="resume-left-col" col={3}>
                         <div style={{textAlign:"center", marginTop:'2em'}}>
