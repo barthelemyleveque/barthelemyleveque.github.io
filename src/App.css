@@ -331,6 +331,14 @@ footer{
   margin-top:'-100px';
 }
 
+.website{
+  color:black;
+}
+
+.website:hover{
+  color:rgb(17, 153, 142);
+}
+
 /*
 ** RESUME - HOBBIES CSS
 */

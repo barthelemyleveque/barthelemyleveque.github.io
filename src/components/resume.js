@@ -40,6 +40,7 @@ class Resume extends Component {
                             startYear={2019}
                             endYear={2021}
                             name={"School 42"}
+                            website={"https://www.42.us.org/"}
                             location={"Paris, France"}
                             desc={"Studying software engineering and programming."}
                             
@@ -49,6 +50,7 @@ class Resume extends Component {
                             endYear={2017}
                             name={"IÉSEG"}
                             location={"Lille, France"}
+                            website={"https://www.ieseg.fr/en/"}
                             desc={"Graduated with a Masters Degree in Corporate Finance."}
                         />
                         <Education 
@@ -56,6 +58,7 @@ class Resume extends Component {
                             endYear={2014}
                             name={"ITESM"}
                             location={"Guadalajara, Mexico"}
+                            website={"https://tec.mx/en"}
                             desc={"Bachelor’s 2nd year as an exchange student"}
                         />
                         <hr style={{borderTop:'3px solid #11998e', width:'50%', marginLeft:'50%'}}/>
@@ -65,6 +68,7 @@ class Resume extends Component {
                             endYear={2019}
                             name={"Executive Assistant to CEO"}
                             location={"The Adecco Group"}
+                            website={"https://www.adeccogroup.com/"}
                             desc={"As Adecco France's CEO's Executive Assistant, I was tasked with participating in the elaboration of the company's strategy ; working closely with both central functions and operations to support its deployment and monitor our performance."}
                             
                         />
@@ -73,6 +77,7 @@ class Resume extends Component {
                             endYear={2017}
                             name={"Social Enterprise Co-Founder"}
                             location={"Cafélections"}
+                            website={"https://fr.ulule.com/cafelections/"}
                             desc={"Started a social enterprise : Cafélections, which sold coffee packs bearing caricatures of the French election’s candidates ; 80% of our profits were donated to a charity. Cafélections was featured in one major newspaper (Nouvel Obs.) and we were interviewed by France's number one radio (RTL)."}
                         />
                         <Education 
@@ -80,6 +85,7 @@ class Resume extends Component {
                             endYear={2017}
                             name={"Financial Controller"}
                             location={"The Adecco Group"}
+                            website={"https://www.adeccogroup.com/"}
                             desc={"Provided financial performance analysis for 170 branches, supported by the creation of new reports models (using Excel VBA) to highlight financial metrics."}                     
                             />
                         <hr style={{borderTop:'3px solid #11998e', width:'50%', marginLeft:'50%'}}/>

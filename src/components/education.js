@@ -7,7 +7,7 @@ class Education extends Component {
             <div style={{padding:'0px', marginBottom:'0px', marginTop:'-5px'}}>
             <Grid style={{padding:'0px', marginBottom:'0px', marginTop:'0px'}}>
                 <Cell col={8} style={{padding:'0px', marginBottom:'0px', marginTop:'0px'}}>
-                    <h5 style={{marginTop:'0px'}}>{this.props.name} - {this.props.location}</h5>
+                    <a className="website" href={this.props.website} target="_blank" rel="noopener noreferrer"><h5 style={{marginTop:'0px'}}>{this.props.name} - {this.props.location}</h5></a>
                 </Cell>
                 <Cell col={4} style={{padding:'0px', marginBottom:'0px', marginTop:'-1px'}}>
                     <p style={{textAlign:'center'}}>{this.props.startYear} - {this.props.endYear}</p>
