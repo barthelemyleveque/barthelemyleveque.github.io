@@ -214,6 +214,7 @@ footer{
   flex-wrap:wrap;
   padding:20px;
   margin-top:10px;
+  margin-bottom:80px;
   height:90%;
 }
 
@@ -424,13 +425,20 @@ footer{
     display:none
   }
   .banner-buttons{
-    margin-bottom:50px;
+    margin-bottom:80px;
   }
 
   .btn{
     margin:3px;
   }
 
+  .tab{
+    font-size:10px !important;
+  }
+
+  .avatar-img{
+    height:90px;
+  }
   .banner-text h1{
     display:none;
   }
@@ -446,6 +454,18 @@ footer{
     font-size:15px;
     margin:auto;
     padding-top:1em
+  }
+
+  .resume-right-col h4{
+    font-size:20px;
+  }
+
+  .top-pdf{
+    display:none;
+  }
+
+  .resume-right-col h5{
+    font-size:18px;
   }
   
   
