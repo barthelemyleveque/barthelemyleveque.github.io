@@ -16,8 +16,20 @@ class LandingPage extends Component {
                         <div className="banner-text">
                             <h1>Barthélémy LEVEQUE</h1>
                             <p className="subtitle">Software Engineer and Full-Stack Web Developer <br/> with experience in Corporate Finance and Strategy</p>
-                            <div className="languages">
                                 <hr style={{padding:'10px'}}/>
+                             <div className="banner-desc">
+                                <p> Hello there  <span role="img" aria-label="waving hand">👋</span></p>
+                                <p>I am a 25-year-old <a href="https://www.42.us.org/" target="_blank" rel="noopener noreferrer">School 42</a> student looking for a 6-month internship in Paris or abroad, starting in January 2020.
+                                </p>
+                                <p>Want to know more about me ?</p>
+                            </div>
+                        </div>
+                        <div className="banner-buttons">
+                            <Link to="/projects" className="btn btn-outline-success redirect">Check my Projects</Link>
+                            <Link to="/resume" className="btn btn-outline-success redirect">Check my Resumé</Link>
+                            <Link to="/contact" className="btn btn-outline-success redirect">Or contact me <span role="img" aria-label="smiley">😄</span></Link>
+                        </div>
+                             <div className="languages banner-text">
                                 <img src="https://img.icons8.com/color/96/000000/c-programming.png" alt="c" title="C"></img>
                                 <img src="https://img.icons8.com/color/96/000000/python.png" alt="python" title="Python"></img>
                                 <img src="https://img.icons8.com/color/96/000000/php.png" alt="php" title="PHP"></img>
@@ -25,16 +37,6 @@ class LandingPage extends Component {
                                 <img src="https://img.icons8.com/color/96/000000/nodejs.png" alt="nodejs" title="NodeJS"></img>
                                 <img src="http://pngimg.com/uploads/mysql/mysql_PNG9.png" style={{width: '120px'}} alt="sql" title="MySQL"></img>
                                 <img src="https://img.icons8.com/color/96/000000/docker.png" alt="docker" title="Docker"></img>
-                         </div>
-                        </div>
-                         <div className="banner-desc">
-                             <p> Hello there  <span role="img" aria-label="waving hand">👋</span></p>
-                             <p>I am a 25-year-old <a href="https://www.42.us.org/" target="_blank" rel="noopener noreferrer">School 42</a> student looking for a 6-month internship starting in January 2020.
-                            </p>
-                             <p>Want to know more about me ?</p>
-                             <Link to="/projects" className="btn btn-outline-success redirect">Check my Projects</Link>
-                             <Link to="/resume" className="btn btn-outline-success redirect">Check my Resumé</Link>
-                             <Link to="/contact" className="btn btn-outline-success redirect">Or contact me <span role="img" aria-label="smiley">😄</span></Link>
                          </div>
                     </Cell>
                 </Grid>
