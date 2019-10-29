@@ -12,7 +12,7 @@ class Contact extends Component {
                         alt="avatar"
                         className="contact-image"
                         />
-                        <p className="contact-desc">Hi ! <br /> Thank you for your interest in my profile, if you're looking for an intern in Software Engineering or Full-Stack programming, please do not hesitate to contact me !<br/> I am available starting January 2020 🚀</p>
+                        <p className="contact-desc">Thank you for your interest in my profile, if you're looking for an intern in Software Engineering or Full-Stack programming, please feel free to contact me !<br/> I am available starting January 2020 🚀</p>
                     </Cell>
                     <Cell col={6}>
                         <h2>Contact Me</h2>
