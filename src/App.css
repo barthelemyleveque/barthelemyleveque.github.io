@@ -31,7 +31,6 @@ body{
 .avatar-img{
   height:180px;
   margin-top:40px;
-  margin-bottom:10px;
   border-radius:50%;
 }
 
@@ -60,6 +59,7 @@ body{
 .banner-desc p{
   color: rgba(255, 255, 255, 1.0) !important;
   font-size: 20px ;
+  margin-bottom:10px;
 }
 
 .redirect{
