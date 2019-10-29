@@ -219,35 +219,40 @@ footer{
 
 .c-language{
   color:black;
-  height:176px;
+  margin-top:10px;
+  height:140px;
   background: url(img/c-logo.png) center / contain no-repeat;
 }
 
 .card-desc{
   text-align:justify;
-  height:160px;
+  height:200px;
 }
 .python-language{
   color:black;
-  height:176px;
+  margin-top:10px;
+  height:140px;
   background: url(img/python-logo.png) center / contain no-repeat;
 }
 
 .php-language{
   color:black;
-  height:176px;
+  margin-top:10px;
+  height:140px;
   background: url(img/php-logo.png) center / contain no-repeat;
 }
 
 .react-language{
   color:black;
-  height:176px;
+  margin-top:10px;
+  height:140px;
   background: url(img/react-logo.svg) center / contain no-repeat;
 }
 
 .node-language{
   color:black;
-  height:176px;
+  margin-top:10px;
+  height:140px;
   background: url(img/node-logo.png) center / contain no-repeat;
 }
 
@@ -340,6 +345,15 @@ footer{
 
 .top-pdf .btn{
   background:rgb(17, 153, 142);
+}
+
+.desc-title{
+  font-weight:bold;
+  color:black;
+}
+
+.card-desc li{
+  margin-bottom:-5px;
 }
 
 .resume-left-col{

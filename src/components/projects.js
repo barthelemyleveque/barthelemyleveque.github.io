@@ -19,8 +19,14 @@ class Projects extends Component {
                 <Card shadow={5} style={{minWidth: '450', margin: 'auto', marginTop:'20px'}}>
                     <CardTitle className="c-language">Corewar</CardTitle>
                     <CardText className="card-desc">
-                    Corewar is a game that takes place in a virtual arena where programs written in a simplistic language fight one another.
-                    We explored the design of a VM and challenges related to compiling an assembly language into bytecode.
+                    <span className="desc-title">Goal :</span><br/>
+                    A team project to build your own Virtual Machine, simulating basic processors operations.<br/><br/>
+                    <span className="desc-title">Concepts :</span>
+                    <ul>
+                        <li>Parsing</li>
+                        <li>Assembly language</li>
+                        <li>Virtual Machine</li>
+                    </ul>
                     </CardText>
                     <CardActions border>
                         <Button colored><a href="https://github.com/barthelemyleveque/Corewar" target="_blank" rel="noopener noreferrer" ><span className="fa faproj fa-github"></span>GitHub</a></Button>
@@ -31,7 +37,14 @@ class Projects extends Component {
                 <Card shadow={5} style={{minWidth: '450', margin: 'auto', marginTop:'20px'}}>
                 <CardTitle className="c-language">Lemin</CardTitle>
                 <CardText className="card-desc">
-                    Lem-in is an algorithmic project that rely upon graph theory to find the shortest paths from a point A to a point B. Each route has a maximum capacity, so we used the Edmund-Karp algorithm to improve our results.
+                <span className="desc-title">Goal :</span><br/>
+                Find the shortest solution for n ants to traverse a graph, from one cell to another, in as few turns as possible.<br/><br/>
+                    <span className="desc-title">Concepts:</span>
+                    <ul>
+                        <li>Graph theory</li>
+                        <li>Breadth-first search</li>
+                        <li>Edmonds-Karp algorithm</li>
+                    </ul>
                 </CardText>
                 <CardActions border>
                     <Button colored><a href="https://github.com/barthelemyleveque/lem_in" target="_blank" rel="noopener noreferrer" ><span className="fa faproj fa-github"></span>GitHub</a></Button>
@@ -42,7 +55,14 @@ class Projects extends Component {
             <Card shadow={5} style={{minWidth: '450', margin: 'auto', marginTop:'20px'}}>
             <CardTitle className="c-language">Pushswap</CardTitle>
             <CardText className="card-desc">
-                Push Swap is an algorithmic project. The goal is to sort a list of numbers, by using a limited set of operations, in the most efficient way possible (the less operations, the better). I implemented a custom Quicksort algorithm, and the results were above expectations.  
+            <span className="desc-title">Goal :</span><br/>
+                Sort a list of numbers, by using a limited set of operations, in the most efficient way possible.<br/><br/>
+                    <span className="desc-title">Concepts :</span>
+                    <ul>
+                        <li>Quicksort</li>
+                        <li>Sorting algorithms</li>
+                        <li>Linked lists</li>
+                    </ul>
             </CardText>
             <CardActions border>
                 <Button colored><a href="https://github.com/barthelemyleveque/push_swap" target="_blank" rel="noopener noreferrer" ><span className="fa faproj fa-github"></span>GitHub</a></Button>
@@ -53,8 +73,14 @@ class Projects extends Component {
                  <Card shadow={5} style={{minWidth: '450', margin: 'auto', marginTop:'20px'}}>
             <CardTitle className="c-language">Fillit</CardTitle>
             <CardText className="card-desc">
-            This project aim to resolve a recurrent problematic in programming: the search of an optimal solution among a very large number of possibilities, in a resonable time.
-            The goal is to arrange Tetriminos between them and to determine the smallest square possible.
+            <span className="desc-title">Goal :</span><br/>
+                Arrange Tetris blocks between them to determine the smallest square possible<br/><br/>
+                    <span className="desc-title">Concepts :</span>
+                    <ul>
+                        <li>Recursion</li>
+                        <li>Time complexity</li>
+                        <li>Memory allocation</li>
+                    </ul>
             </CardText>
             <CardActions border>
                 <Button colored><a href="https://github.com/barthelemyleveque/Fillit" target="_blank" rel="noopener noreferrer" ><span className="fa faproj fa-github"></span>GitHub</a></Button>
@@ -69,35 +95,50 @@ class Projects extends Component {
             <div className="projects-grid">
 
             <Card shadow={5} style={{minWidth: '450', margin: 'auto', marginTop:'20px'}}>
-                <CardTitle className="python-language">Wine Quality</CardTitle>
+                <CardTitle className="python-language">Image Compression</CardTitle>
                 <CardText className="card-desc">
-                    Using Machine Learning techniques, I tried to predict the quality of wines. It's a regression problem
+                <span className="desc-title">Goal :</span><br/>
+                Take an image as input, and using Machine Learning algorithms, compress it to an inferior size.<br/><br/>
+                    <span className="desc-title">Concepts :</span>
+                    <ul>
+                        <li>K-means clustering</li>
+                        <li>Matrix mathematics</li>
+                        <li>File manipulation</li>
+                    </ul>
                 </CardText>
                 <CardActions border>
-                    <Button colored>GitHub</Button>
+                <Button colored><a href="https://github.com/barthelemyleveque/compress_img" target="_blank" rel="noopener noreferrer" ><span className="fa faproj fa-github"></span>GitHub</a></Button>
                 </CardActions>
-                <CardMenu style={{color: "#fff"}}>
-                    <IconButton name="share"/>
-                </CardMenu>
             </Card>
 
             <Card shadow={5} style={{minWidth: '450', margin: 'auto', marginTop:'20px'}}>
                 <CardTitle className="python-language">ML Workshop</CardTitle>
                 <CardText className="card-desc">
-                    As part of Machine Learning workshops organized by the student association 42AI, we prepared a two hours presentation and some exercises about Decision Trees, Random Forets and Boosted Trees.
+                <span className="desc-title">Goal :</span><br/>
+                Preparation of a workshop for 42 students, about Machine Learning algorithms.<br/><br/>
+                    <span className="desc-title">Concepts :</span>
+                    <ul>
+                        <li>Decision Trees</li>
+                        <li>Random Forests</li>
+                        <li>Boosted Trees</li>
+                    </ul>
                 </CardText>
                 <CardActions border>
                     <Button colored><a href="https://github.com/barthelemyleveque/ML_RandForests" target="_blank" rel="noopener noreferrer" ><span className="fa faproj fa-github"></span>GitHub</a></Button>
                 </CardActions>
-                <CardMenu style={{color: "#fff"}}>
-                    <IconButton name="share"/>
-                </CardMenu>
             </Card>
 
             <Card shadow={5} style={{minWidth: '450', margin: 'auto', marginTop:'20px'}}>
                 <CardTitle className="python-language">Bootcamp Betatester</CardTitle>
                 <CardText className="card-desc">
-                    Beta-tested the school's Python bootcamp. Working with the pedagogical team to improve the exercises which teach the basics of Python, Numpy and Pandas.
+                <span className="desc-title">Goal :</span><br/>
+                Beta-tested the school's Python bootcamp. Working with the pedagogical team to improve the exercises<br/><br/>
+                    <span className="desc-title">Concepts :</span>
+                    <ul>
+                        <li>Object-oriented programming</li>
+                        <li>Numpy</li>
+                        <li>Pandas</li>
+                    </ul>
                 </CardText>
                 <CardActions border>
                     <Button colored><a href="https://github.com/barthelemyleveque/Piscine_Python" target="_blank" rel="noopener noreferrer" ><span className="fa faproj fa-github"></span>GitHub</a></Button>
@@ -117,8 +158,14 @@ class Projects extends Component {
             <Card shadow={5} style={{minWidth: '450', margin: 'auto', marginTop:'20px'}}>
                 <CardTitle className="php-language">Invoice Generator</CardTitle>
                 <CardText className="card-desc">
-                    An ongoing freelance project for a Gas Control company. I had to build a web-app where clients can generate an invoice depending on the characteristics of their fire-system. The backend is done in PHP, and data collection is done through MySQL. Hosted on a Google Cloud server.
-                    <br/>(The code is private, because of the sensitive nature of some infos)
+                <span className="desc-title">Goal :</span><br/>
+                    (Freelance project) Build a web-app where clients can generate their invoices.<br/><br/>
+                    <span className="desc-title">Concepts :</span>
+                    <ul>
+                        <li>Database architecture</li>
+                        <li>PHP Data Objects</li>
+                        <li>Server set-up</li>
+                    </ul>
                 </CardText>
                 <CardActions border>
                     <Button colored><a href="https://github.com/barthelemyleveque/InvoiceGen_PUBLIC" target="_blank" rel="noopener noreferrer" ><span className="fa faproj fa-github"></span>GitHub</a></Button>
@@ -127,9 +174,15 @@ class Projects extends Component {
 
             <Card shadow={5} style={{minWidth: '450', margin: 'auto', marginTop:'20px'}}>
                 <CardTitle className="php-language">eCommerce </CardTitle>
-                <CardText className="card-text">
-                    My first web project, built over a week-end. It is a eCommerce website, with the expected functionalities : account creation, order, search for products and categories, an administration page etc. <br/>
-                    No librairies were used, full PHP and HTML/CSS
+                <CardText className="card-desc">
+                <span className="desc-title">Goal :</span><br/>
+                    First web-project, an eCommerce website built over a week-end without frameworks. Pure PHP and HTML/CSS<br/><br/>
+                    <span className="desc-title">Concepts :</span>
+                    <ul>
+                        <li>Authentification</li>
+                        <li>Cookies handling</li>
+                        <li>Administration interface</li>
+                    </ul>
                 </CardText>
                 <CardActions border>
                     <Button colored><a href="https://github.com/barthelemyleveque/online_store" target="_blank" rel="noopener noreferrer" ><span className="fa faproj fa-github"></span>GitHub</a></Button>
@@ -146,7 +199,14 @@ class Projects extends Component {
                 <Card shadow={5} style={{minWidth: '450', margin: 'auto', marginTop:'20px'}}>
                     <CardTitle className="react-language">My Portfolio</CardTitle>
                     <CardText className="card-desc">
-                        This very portfolio is built using React, Bootstrap and React-mdl. Published using GitHub Pages 
+                    This very portfolio is built using React, Bootstrap and React-mdl. Published using GitHub Pages <br/><br/>
+                    <span className="desc-title">Concepts :</span>
+                    <ul>
+                        <li>Bootstrap</li>
+                        <li>React-mdl</li>
+                        <li>Front-end</li>
+                    </ul>
+                        
                     </CardText>
                     <CardActions border>
                         <Button colored><a href="https://github.com/barthelemyleveque/barthelemyleveque.github.io" target="_blank" rel="noopener noreferrer" ><span className="fa faproj fa-github"></span>GitHub</a></Button>
@@ -162,7 +222,13 @@ class Projects extends Component {
                 <Card shadow={5} style={{minWidth: '450', margin: 'auto', marginTop:'20px'}}>
                     <CardTitle className="node-language">Concerts Locator</CardTitle>
                     <CardText className="card-desc">
-                        This ongoing project goal is to cross-reference your favorite artists, thanks to Spotify's API, and their future venues in your town, thanks to Songkick's API. 
+                    Cross-reference your most-streamed artists on Spotify, and their future venues in your town.<br/><br/>
+                    <span className="desc-title">Concepts :</span>
+                    <ul>
+                        <li>API Fetching</li>
+                        <li>Express framework</li>
+                        <li>MongoDB</li>
+                    </ul>
                     </CardText>
                     <CardActions border>
                         <Button colored><a href="https://github.com/barthelemyleveque/Spotify_MERN" target="_blank" rel="noopener noreferrer" ><span className="fa faproj fa-github"></span>GitHub</a></Button>
