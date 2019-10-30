@@ -4,6 +4,11 @@ body{
 }
 
 
+.resume-top{
+  display:none !important;
+}
+
+
 
 .header-color{
   background: #11998e;  /* fallback for old browsers */
@@ -168,7 +173,7 @@ footer .fa-envelope:hover {
   color:white;
 }
 
-footer .fa-linkedin {
+.fa-linkedin {
   color:  #007bb5;
 }
 
@@ -262,6 +267,23 @@ footer{
 ** CONTACT CSS
 */ 
 
+.contact-list a{
+  color: black;
+  text-decoration:underline;
+}
+
+.contact-list i{
+  width:60px;
+}
+
+.contact-list .fa-envelope{
+  color:#946D46  !important;
+}
+
+.contact-list .fa-linkedin{
+  margin-top:-10px !important;
+}
+
 .contact-image{
   height: 250px !important;
   border-radius:33%;
@@ -297,7 +319,7 @@ footer{
 
 .contact-grid .fa{
   justify-content: center;
-  vertical-align:middle;
+  vertical-align: middle;
   text-align:center;
   
 }
@@ -439,6 +461,7 @@ footer{
 
   .avatar-img{
     height:90px;
+    margin-bottom:10px;
   }
   .banner-text h1{
     display:none;
@@ -467,6 +490,18 @@ footer{
 
   .resume-right-col h5{
     font-size:18px;
+  }
+
+  #sticky-footer{
+    display:none;
+  }
+
+  footer{
+    display:none;
+  }
+
+  .contact-list i{
+    width:30px;
   }
   
   

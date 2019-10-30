@@ -23,19 +23,25 @@ class Contact extends Component {
                             <ListItem>
                               <ListItemContent >
                                   <i className="fa fa-phone-square" aria-hidden="true" />
-                                  +33 6 35 23 51 17
+                                  <a href="tel:+33635235117" target="_blank" rel="noopener noreferrer">+33 6 35 23 51 17</a>
                               </ListItemContent>
                             </ListItem>
                             <ListItem>
                               <ListItemContent>
                               <i className="fa fa-envelope" aria-hidden="true" />
-                                bleveque@student.42.fr
+                              <a href="mailto: bleveque@student.42.fr"  target="_blank" rel="noopener noreferrer">bleveque@student.42.fr</a> 
                               </ListItemContent>
                             </ListItem>
                             <ListItem>
                               <ListItemContent>
-                              <i className="fa fa-skype" aria-hidden="true" />
-                              live:barthelemy.leveque 
+                              <i className="fa fa-github" aria-hidden="true" />
+                              <a href="https://github.com/barthelemyleveque" target="_blank" rel="noopener noreferrer">barthelemyleveque</a>
+                              </ListItemContent>
+                            </ListItem>
+                            <ListItem>
+                              <ListItemContent>
+                              <i className="fa fa-linkedin" aria-hidden="true" />
+                              <a href="https://www.linkedin.com/in/barth%C3%A9l%C3%A9my-leveque-73001ba3/" target="_blank" rel="noopener noreferrer">Barthélémy Leveque</a>
                               </ListItemContent>
                             </ListItem>
                         </List>
