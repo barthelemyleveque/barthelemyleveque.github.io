@@ -35,6 +35,7 @@ class Projects extends Component {
             <Card shadow={5} style={{minWidth: '450', margin: 'auto', marginTop:'20px'}}>
                     <CardTitle className="node-language">Concerts Locator</CardTitle>
                     <CardText className="card-desc">
+                    <span className="desc-title">Goal :</span><br/>
                     Cross-reference your most-streamed artists on Spotify, and their future venues in your town.<br/><br/>
                     <span className="desc-title">Concepts :</span>
                     <ul>
@@ -171,6 +172,7 @@ class Projects extends Component {
             <Card shadow={5} style={{minWidth: '450', margin: 'auto', marginTop:'20px'}}>
                     <CardTitle className="react-language">My Portfolio</CardTitle>
                     <CardText className="card-desc">
+                    <span className="desc-title">Goal :</span><br/>
                     This very portfolio is built using React, Bootstrap and React-mdl. Published using GitHub Pages <br/><br/>
                     <span className="desc-title">Concepts :</span>
                     <ul>
@@ -390,6 +392,7 @@ class Projects extends Component {
                 <Card shadow={5} style={{minWidth: '450', margin: 'auto', marginTop:'20px'}}>
                     <CardTitle className="react-language">My Portfolio</CardTitle>
                     <CardText className="card-desc">
+                    <span className="desc-title">Goal :</span><br/>
                     This very portfolio is built using React, Bootstrap and React-mdl. Published using GitHub Pages <br/><br/>
                     <span className="desc-title">Concepts :</span>
                     <ul>
@@ -413,6 +416,7 @@ class Projects extends Component {
                 <Card shadow={5} style={{minWidth: '450', margin: 'auto', marginTop:'20px'}}>
                     <CardTitle className="node-language">Concerts Locator</CardTitle>
                     <CardText className="card-desc">
+                    <span className="desc-title">Goal :</span><br/>
                     Cross-reference your most-streamed artists on Spotify, and their future venues in your town.<br/><br/>
                     <span className="desc-title">Concepts :</span>
                     <ul>
