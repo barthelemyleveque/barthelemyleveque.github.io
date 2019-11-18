@@ -34,9 +34,9 @@ class LandingPage extends Component {
                                 <img src="https://img.icons8.com/color/96/000000/python.png" alt="python" title="Python"></img>
                                 <img src="https://img.icons8.com/color/96/000000/php.png" alt="php" title="PHP"></img>
                                 <img src="https://img.icons8.com/color/96/000000/react-native.png" alt="react" title="React"></img>
-                                <img src="https://img.icons8.com/color/96/000000/nodejs.png" alt="nodejs" title="NodeJS"></img>
+                                <img src="https://img.icons8.com/color/124/000000/nodejs.png" alt="nodejs" title="NodeJS"></img>
                                 <img src="http://pngimg.com/uploads/mysql/mysql_PNG9.png" style={{width: '120px'}} alt="sql" title="MySQL"></img>
-                                <img src="https://img.icons8.com/color/96/000000/docker.png" alt="docker" title="Docker"></img>
+                                <img src="https://img.icons8.com/color/128/000000/docker.png" alt="docker" title="Docker"></img>
                          </div>
                     </Cell>
                 </Grid>
